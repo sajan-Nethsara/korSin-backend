@@ -7,7 +7,6 @@ router.get('/', (req, res) => {
   res.send(conversationGameInfo)
 })
 
-
 router.get('/:id', (req, res) =>{
   const id = req.params.id
   if(parseInt(id)>20){

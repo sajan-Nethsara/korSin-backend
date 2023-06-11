@@ -1,0 +1,5 @@
+ <----> api endpoints for conversation Game model 
+GET/
+/games/con-game/:id --> gives information about a game level(:id)
+/games/con-game/:id/audio/:audio_id --> gives audio file for specific game level and id
+/games/con-game/ --> gives some information about conversation game model

@@ -4,22 +4,22 @@
   "data": [
     {
       "question": "안녕하세요?",
-      "answers": ["", "", "", "Hello."],
+      "answers": ["a", "a", "a", "Hello."],
       "correct": "Hello."
     },
     {
       "question": "네, 안녕하세요?",
-      "answers": ["", "", "Hello.", ""],
+      "answers": ["a", "a", "Hello.", "a"],
       "correct": "Hello."
     },
     {
       "question": "저는 유양이에요.",
-      "answers": ["I'm Yooyang.", "", "", ""],
+      "answers": ["I'm Yooyang.", "a", "a", "a"],
       "correct": "I'm Yooyang."
     },
     {
       "question": "저는 김우빈이에요.",
-      "answers": ["", "", "", "I'm Kim, Woobin."],
+      "answers": ["a", "a", "a", "I'm Kim, Woobin."],
       "correct": "I'm Kim, Woobin."
     }
   ]

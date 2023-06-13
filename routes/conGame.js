@@ -9,12 +9,17 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) =>{
   const id = req.params.id
-  if(parseInt(id)>20){
+  try{
+    if(parseInt(id)>20){
+      res.sendStatus(404)
+    }else{
+      const data = conGameFindData(id)
+      res.send(data)
+      
+    }
+
+  }catch{
     res.sendStatus(404)
-  }else{
-    const data = conGameFindData(id)
-    res.send(data)
-    
   }
 })
 router.get('/:id/audio/:sen', (req,res) => {
